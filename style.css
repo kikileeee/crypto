@@ -1,0 +1,26 @@
+#prostor {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+}
+#prostor h2 {
+    text-align: center;
+}
+#prostor li {  
+    list-style-type: none;
+    text-transform: uppercase;
+}
+#prostor img{
+    width: 25px;
+    height: 25px;
+}
+#prostor ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#prostor ul div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
