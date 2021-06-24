@@ -6,6 +6,7 @@ body{
 #prostor {
     display: flex;
     flex-direction: column;
+    min-width: 600px;
 }
 #prostor h2 {
     text-align: center;
@@ -25,6 +26,7 @@ body{
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    flex-basis: 1;
 }
 #prostor ul:nth-child(2n){
     background-color: lightblue;
@@ -33,4 +35,11 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
+    flex: 1;
+}
+#red {
+    color: red;
+}
+#green {
+    color: green;
 }
