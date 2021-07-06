@@ -7,7 +7,9 @@ fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=mark
             let prnt = Math.floor(user.price_change_percentage_24h)
 
             let boja = ''
-            if(prnt>=0){
+            if(prnt==0){
+                boja = 'orange'
+            }else if(prnt>0){
                 boja = 'green'
             } else {
                 boja = 'red'

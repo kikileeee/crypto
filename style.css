@@ -1,12 +1,13 @@
 body{
-    background-color: skyblue;
+    background-color: rgb(19, 122, 163);
     font-family: 'Montserrat', sans-serif;
+color: white;
 }
 
 #prostor {
     display: flex;
-    flex-direction: column;
-    min-width: 600px;
+    flex-direction: column;   
+    text-align: center;
 }
 #prostor h2 {
     text-align: center;
@@ -29,7 +30,7 @@ body{
     flex-basis: 1;
 }
 #prostor ul:nth-child(2n){
-    background-color: lightblue;
+    background-color: rgb(3, 149, 197);
 }
 #prostor ul div{
     display: flex;
@@ -39,7 +40,13 @@ body{
 }
 #red {
     color: red;
+    font-weight: bolder;
 }
 #green {
-    color: green;
+    color: rgb(0, 235, 0);
+    font-weight: bolder;
+}
+#orange {
+    color: orange;   
+    font-weight: bolder;
 }
